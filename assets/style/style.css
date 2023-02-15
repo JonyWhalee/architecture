@@ -11,6 +11,16 @@ body {
     position: relative;
     height: 100%;
     overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+ width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+ background: linear-gradient(transparent, #EAA920);
+ border-radius: 40px;
 }
 
 body {
@@ -169,6 +179,7 @@ body {
  color: #fff;
  text-decoration: none;
  padding: 1rem;
+ transition: all 0.5s linear;
 }
 .nav-container .active{
  color: #EAA920;
@@ -213,6 +224,7 @@ body {
  background-repeat: no-repeat;
  background-size: cover;
  background-attachment: fixed;
+ margin: 3rem 0;
  /* background-color: rgba(0, 0, 0, 1) No funciona*/
 }
 .title-home h2{
@@ -232,6 +244,9 @@ body {
  flex-direction: column;
  justify-content: space-between;
  height: 450px;
+ background-image: url("../media/img/city.png");
+ background-repeat: no-repeat;
+ background-position: bottom;
 }
 .footer-top{
  display: flex;
@@ -252,6 +267,7 @@ body {
 .footer-top section h2{
  font-size: 2rem;
  padding: 3rem;
+ color: #eee;
 }
 .footer-top section ul{
  list-style: none;
@@ -262,6 +278,10 @@ body {
 .footer-top section ul i{
  font-size: 2.2rem;
  margin: 0 2rem;
+ transition: all 0.5s linear;
+}
+.footer-top section ul i:hover{
+ color: #EAA920;
 }
 .footer-bot{
  display: flex;
