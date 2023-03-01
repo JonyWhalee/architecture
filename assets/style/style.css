@@ -205,11 +205,12 @@ body {
 .container-icons div i{
  font-size: 4rem;
  padding: 0 4rem;
- color: #92B7FF;
+ color: #1C1C1C;
  transition: all 1s linear;
 }
 .container-icons div i:hover{
  transform: scale(1.2);
+ color: #EAA920;
 }
 
 .container-icons article{
@@ -232,7 +233,6 @@ body {
  background-attachment: fixed;
  margin: 3rem 0;
  cursor: pointer;
- /* background-color: rgba(0, 0, 0, 1) No funciona*/
 }
 .title-home h2{
  font-size: 1.5rem;
@@ -278,6 +278,33 @@ body {
  font-size: 2rem;
  padding: 3rem;
  color: #eee;
+}
+.footer-top section .one::before{
+    display: block;
+    content: "";
+    transform: translateX(70%);
+    height: 4px;
+    width: 80px;
+    border-radius: 2px;
+    background-color: #EAA920;
+}
+.footer-top section .two::before{
+    display: block;
+    content: "";
+    transform: translateX(45%);
+    height: 4px;
+    width: 70px;
+    border-radius: 2px;
+    background-color: #EAA920;
+}
+.footer-top section .three::before{
+    display: block;
+    content: "";
+    transform: translateX(70%);
+    height: 4px;
+    width: 80px;
+    border-radius: 2px;
+    background-color: #EAA920;
 }
 .footer-top section ul{
  cursor: pointer;
@@ -330,9 +357,7 @@ body {
  width: 30%;
  height: 100%;
  object-fit:cover;
- 
  -webkit-box-reflect:below 2px linear-gradient(transparent, transparent, #0004);
- 
  transform-origin:center;
  transform:perspective(800px) rotateY(25deg);
  transition:0.5s;
@@ -340,9 +365,6 @@ body {
 .container {
  max-width:600px;
  max-height:350px;
- 
- 
- 
  display:flex;
  justify-content:center;
  align-items:center;
