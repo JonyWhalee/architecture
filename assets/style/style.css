@@ -275,14 +275,14 @@ body {
 
 .footer-top section h2{
  cursor: pointer;
- font-size: 2rem;
+ font-size: 1.5rem;
  padding: 3rem;
  color: #eee;
 }
 .footer-top section .one::before{
     display: block;
     content: "";
-    transform: translateX(70%);
+    transform: translateX(40%);
     height: 4px;
     width: 80px;
     border-radius: 2px;
@@ -291,7 +291,7 @@ body {
 .footer-top section .two::before{
     display: block;
     content: "";
-    transform: translateX(45%);
+    transform: translateX(20%);
     height: 4px;
     width: 70px;
     border-radius: 2px;
@@ -300,7 +300,7 @@ body {
 .footer-top section .three::before{
     display: block;
     content: "";
-    transform: translateX(70%);
+    transform: translateX(40%);
     height: 4px;
     width: 80px;
     border-radius: 2px;
